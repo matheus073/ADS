@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 98%;
+  height: 100%;
+  margin: 1%;
+}
+
+
+aside {
+  margin-left: auto;
+  border: 1px solid #000;
+  width: 20%;
+  height: 870px;
+  overflow: overlay;
+}
+main {
+  border: 1px solid #000;
+  width: 79%;
+  padding: 10px;
+}
+main,
+aside {
+  display: inline-block;
+}
+
+footer {
+  margin-top: 10px;
+  background-color: grey;
+  color: white;
+}
+aside,
+nav {
+  background-color: #ededed;
+}
+nav{
+  margin-top: -0.7rem;
+  margin-left: -1%;
+  margin-right: -1%;
+}
+#avatar {
+  width: 60px;
+  height: 60px;
+}
+#menu ul {
+  padding: 0px;
+  margin: 0px;
+  background-color: #ededed;
+  list-style: none;
+}
+#menu ul li {
+  display: inline;
+}
+
+#menu ul li a {
+  padding: 9% 10px;
+  display: inline-block;
+  font-size: 1em;
+
+  /* visual do link */
+  background-color: #ededed;
+  color: #333;
+  text-decoration: none;
+  border-bottom: 3px solid #ededed;
+}
+#menu ul li a:hover {
+  background-color: #d6d6d6;
+  color: #6d6d6d;
+  border-bottom: 3px solid #ea0000;
+}
+
+.name-times {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2em;
+  margin-top: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
