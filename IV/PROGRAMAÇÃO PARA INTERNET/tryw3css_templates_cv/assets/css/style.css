@@ -1,0 +1,21 @@
+img {
+  width: 100%;
+}
+body {
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+}
+h1,
+h2 {
+  font-weight: 400;
+  margin: 10px 0;
+}
+.fa {
+  color: #009688;
+}
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
