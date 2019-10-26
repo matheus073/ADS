@@ -6,10 +6,9 @@ function removeElement() {
     let btnRemove = document.getElementsByClassName('btnRemove');
     for (let index = 0; index < btnRemove.length; index++) {
         const btn = btnRemove[index];
-        btn.addEventListener('click', async ()=>{
+        btn.addEventListener('click', ()=>{
             const numero = btn.id.split('-')[1];
-            console.log(numero)
-            const tr = await document.getElementById(`idTr-${numero}`);
+            const tr = document.getElementById(`idTr-${numero}`);
             tr.remove();
         });   
     }
